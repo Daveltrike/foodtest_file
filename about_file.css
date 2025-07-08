@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background: #474747;
+  min-height: 3%;
+}
+.top nav {
+  position: relative;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+}
+
+.milk {
+  color: #f9f9f7;
+  text-align: left;
+  margin: 7px;
+}
+.marine {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+}
+.ford {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+}
+.ace {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  gap: 0.5rem;
+}
+.arthur {
+  gap: 1rem;
+  display: relative;
+}
+.header {
+  min-height: 20vh;
+  width: 100%;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+/* nav img {
+    width: 40vh;
+  } */
+.ul1 li {
+  display: inline-block;
+  padding: 0 12px;
+  position: relative;
+  border: 1px solid rbg(59, 77, 19);
+  border-radius: 5px;
+}
+.ul1 li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.ul1 li:hover {
+  background-color: aquamarine;
+  border: 1px solid rgb(59, 77, 19);
+  border-radius: 21px;
+}
+.BOOK {
+  list-style: none;
+  border: 2px solid rgb(49, 8, 8);
+  border-radius: 80px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.ul2 {
+  list-style: none;
+}
+
+.BOOK:hover {
+  background-color: rgb(226, 93, 95);
+}
+.bord {
+  width: 2%;
+  display: none;
+}
+.enies {
+  position: relative;
+  width: 100%;
+}
+.kid {
+  background: #474747;
+  width: 411px;
+  height: 321px;
+  border-radius: 12px;
+  position: absolute;
+  bottom: 10%;
+  right: 50%;
+}
+.cep {
+  position: relative;
+  display: flex;
+  text-align: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+.prime {
+  align-items: center;
+}
+.plat {
+  width: 45%;
+}
+.ville {
+  margin-top: 5%;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  gap: 10rem;
+  list-style: none;
+  color: #414536;
+  text-align: left;
+  align-items: left;
+}
+.ville-h1 {
+  font-size: 30px;
+  line-height: 2.5rem;
+}
+.ville ul li {
+  list-style: none;
+}
+.ville-p {
+  padding: 7px;
+}
+.null {
+  list-style: none;
+  border: 2px solid rgb(49, 8, 8);
+  border-radius: 80px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 7px;
+  align-items: center;
+}
+.null:hover {
+  background: red;
+  gap: 1rem;
+  list-style: none;
+}
+.whole {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url(./rest.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cake p {
+  color: #ffff;
+  font-size: 3rem;
+}
+.cake img {
+  position: absolute;
+  right: 47%;
+  top: 21%;
+  width: 7%;
+}
+.onigashima {
+  padding: 10px;
+}
+.onigashima nav {
+  padding: 2% 6%;
+}
+.egg {
+  background: #f9f9f7;
+  height: 100%;
+}
+.box {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  width: 30%;
+  line-height: 3rem;
+  align-items: center;
+  text-align: center;
+}
+.boxer {
+  border: 1px solid #dbdfd0;
+  border-radius: 7px;
+  background-color: #ffff;
+  width: 293px;
+  height: 174px;
+  top: 273px;
+  border-width: 1px;
+  align-items: center;
+  text-align: center;
+  width: 40% 40%;
+}
+.robot {
+  align-items: center;
+  text-align: center;
+}
+.robot h1 {
+  font-size: 2rem;
+}
+.robot p {
+  color: #414536;
+  padding: 1.3rem;
+}
+.boxer h1 {
+  padding: 1.2rem;
+}
+.boxer p {
+  color: #414536;
+  font-size: 1.2rem;
+}
+.Dig {
+  position: relative;
+  display: flex;
+  padding: 2% 6%;
+}
+.fougt img {
+  width: 80%;
+  margin: 3.8rem;
+}
+.fight {
+  padding: 10px;
+}
+.shoto {
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  padding: 50px;
+}
+.range {
+  border-radius: 20px;
+  background: #f9f9f7;
+  padding: 10px;
+}
+.baku {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+.ghoul {
+  position: relative;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.jjk {
+  padding: 10px;
+  color: #ad343e;
+}
+.gojo {
+  color: #414536;
+  padding: 10px;
+}
+.dora {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.dora > div {
+  display: flex;
+  flex-direction: column;
+}
+.active {
+  border: 1px solid #414536;
+  border-radius: 12px;
+}
+.footer {
+  background: #474747;
+  padding: 0.5rem;
+}
+.foot {
+  width: 10%;
+  padding: 10px 2px;
+}
+.ball {
+  list-style: none;
+  padding: 7px;
+  color: #dbdfd0;
+  font-size: 13px;
+}
+.team {
+  position: relative;
+  display: contents;
+}
+.base {
+  color: #ffffff;
+  font-size: 14px;
+}
+.end {
+  text-align: center;
+  color: #adb29e;
+  font-size: 13px;
+  margin: 20px;
+  align-items: center;
+  padding: 50px;
+}
+.container {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  width: 30%;
+}
+video {
+  /*width: 100%;
+  height: 100%;*/
+  width: 100%;
+  height: 100%;
+  top: 50%;
+}
+@media screen and (max-width: 900px) {
+  .marine {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-links {
+    display: none;
+  }
+  .BOOK {
+    display: none;
+  }
+  .Dig {
+    display: flex;
+    flex-direction: column;
+  }
+  .loby {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .ghoul {
+    position: flex;
+    flex-direction: column;
+  }
+  .bottle {
+    width: 200%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .bide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .team {
+    display: flex;
+    flex-direction: row;
+  }
+  .kid {
+    top: 16%;
+    right: 5%;
+    width: 60%;
+    height: 30%;
+  }
+  .cep {
+    font-size: 0.6rem;
+  }
+  .ville-h1 {
+    padding: 2rem;
+  }
+  .bord {
+    display: block;
+  }
+  .plat {
+    width: 85%;
+  }
+  .onigashiman nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .arthur {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}

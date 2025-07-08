@@ -1,0 +1,19 @@
+*{
+    margin: 0.5%;
+    padding: 1%;
+
+}
+
+p.center{
+  display: flex; 
+   justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    color: blue;
+    border-color: aqua;
+}
+label{
+    color: blueviolet;
+    border-radius: 50px solid red ;
+}

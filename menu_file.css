@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.top {
+  background: #474747;
+  min-height: 3%;
+}
+.top nav {
+  position: relative;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+}
+
+.milk {
+  color: #f9f9f7;
+}
+.marine {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+}
+.ford {
+  position: relative;
+  display: flex;
+  gap: 0.5rem;
+}
+.ace {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  gap: 0.5rem;
+}
+.arthur {
+  gap: 1rem;
+  display: relative;
+}
+.header {
+  min-height: 20vh;
+  width: 100%;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+/* nav img {
+      width: 40vh;
+    } */
+.ul1 li {
+  display: inline-block;
+  padding: 0 12px;
+  position: relative;
+  border: 1px solid rbg(59, 77, 19);
+  border-radius: 5px;
+}
+.ul1 li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.ul1 li:hover {
+  background-color: aquamarine;
+  border: 1px solid rgb(59, 77, 19);
+  border-radius: 21px;
+}
+.BOOK {
+  list-style: none;
+  border: 2px solid rgb(49, 8, 8);
+  border-radius: 80px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.ul2 {
+  list-style: none;
+}
+
+.BOOK:hover {
+  background-color: rgb(226, 93, 95);
+}
+.naruto nav {
+  text-align: center;
+  align-items: center;
+}
+.bord {
+  width: 2%;
+  display: none;
+}
+.active {
+  border: 1px solid #414536;
+  border-radius: 12px;
+}
+.danger h1 {
+  font-size: 3.5rem;
+  padding: 0.4rem;
+}
+.danger {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.danger p {
+  color: #495460;
+  font-size: 1rem;
+}
+.dress ul li a {
+  list-style: none;
+  font-size: 0.5rem;
+}
+.dress ul {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+}
+.dress ul li {
+  display: inline-block;
+  padding: 7px;
+  position: relative;
+  border: 1px solid #dbdfd0;
+  border-radius: 15px;
+  display: inline-block;
+}
+.dress ul li:hover {
+  background-color: rgb(226, 93, 95);
+}
+.naruto nav {
+  text-align: center;
+  align-items: center;
+}
+.red {
+  border: 1px solid #dbdfd0;
+  border-radius: 1rem 1rem;
+  background: #ffffff;
+  gap: 1rem 1rem;
+  width: 79%;
+}
+.red img {
+  width: 100%;
+}
+.blue {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.man {
+  color: #ad343e;
+  align-items: center;
+  text-align: center;
+  padding: 0.7rem;
+}
+.red h1 {
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+.pink {
+  font-size: 0.8rem;
+  color: #414536;
+  text-align: center;
+}
+.super {
+  background-color: #f9f9f7;
+  padding: 4rem;
+}
+.man {
+  position: relative;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  align-items: center;
+}
+.ironer {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+  gap: 2rem;
+}
+.ironi {
+  border-radius: 12px;
+  background: #ffffff;
+  width: 100%;
+  padding: 15px;
+}
+.yop {
+  text-align: left;
+}
+.yopy {
+  color: #2c2f24;
+  font-size: 3rem;
+}
+.yop p {
+  color: #414536;
+  font-size: 1.2rem;
+}
+.footer {
+  background: #474747;
+  padding: 1rem;
+}
+.foot {
+  width: 10%;
+  padding: 10px 2px;
+}
+.ball {
+  list-style: none;
+  padding: 7px;
+  color: #dbdfd0;
+  font-size: 13px;
+}
+.team {
+  position: relative;
+  display: contents;
+}
+.base {
+  color: #ffffff;
+  font-size: 14px;
+}
+.end {
+  text-align: center;
+  color: #adb29e;
+  font-size: 13px;
+  margin: 20px;
+  align-items: center;
+  padding: 50px;
+}
+.container {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  width: 30%;
+}
+.bord {
+  display: none;
+}
+@media screen and (max-width: 900px) {
+  .ul1 {
+    display: none;
+  }
+  .BOOK {
+    display: none;
+  }
+  .bord {
+    display: block;
+    width: 5%;
+  }
+  .man {
+    display: flex;
+    flex-direction: column;
+  }
+  .bide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .team {
+    display: flex;
+    flex-direction: row;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .blue {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    margin: auto;
+  }
+  .dress ul {
+    gap: 0.7rem;
+  }
+  .marine {
+    display: flex;
+    flex-direction: column;
+  }
+  .kider {
+    font-size: 2rem;
+  }
+  .arthur {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}

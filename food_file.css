@@ -1,0 +1,613 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.header {
+  min-height: 20vh;
+  width: 100%;
+  position: relative;
+}
+nav {
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  align-items: center;
+}
+/* nav img {
+  width: 40vh;
+} */
+.ul1 li {
+  display: inline-block;
+  padding: 0 12px;
+  position: relative;
+  border: 1px solid rbg(59, 77, 19);
+  border-radius: 5px;
+}
+.ul1 li a {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.ul1 li:hover {
+  background-color: aquamarine;
+  border: 1px solid rgb(59, 77, 19);
+  border-radius: 21px;
+}
+.BOOK {
+  list-style: none;
+  border: 2px solid rgb(49, 8, 8);
+  border-radius: 80px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+}
+.ul2 {
+  list-style: none;
+}
+
+.BOOK:hover {
+  background-color: rgb(226, 93, 95);
+}
+
+.fire {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-image: url(./food.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 60px;
+}
+.text-box p {
+  width: 537px;
+  height: 64px;
+  font-size: 20px;
+  margin: 10px 0 40px;
+}
+.force ul li {
+  list-style: none;
+  position: relative;
+  text-decoration: none;
+  border: 2px solid rgba(125, 137, 185, 0.7);
+  border-radius: 80px;
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  border: 1px solid rgb(59, 77, 19);
+  border-radius: 50px;
+  margin: auto;
+  content: "";
+}
+.force ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.force ul li:hover {
+  background-color: red;
+}
+.piece {
+  text-align: center;
+  background: #ffffff;
+  margin-top: 5rem;
+  padding: 2% 6%;
+}
+.one {
+  font-size: 30px;
+}
+.gum {
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.gum-col {
+  border: 2px border-box black;
+  border-radius: 10px;
+  border: 1px solid #dbdfd0;
+  padding: 12px 20px;
+  margin-bottom: 5%;
+  width: 30%;
+}
+.gum-col img {
+  width: 30%;
+  padding: 5px;
+  margin-bottom: 9px;
+}
+.gum-col h2 {
+  margin: 7px;
+}
+.gum-col p {
+  margin: 7px;
+}
+.zoan a {
+  color: red;
+  padding: 5px;
+  text-decoration: none;
+}
+.over {
+  text-align: center;
+  background: #f9f9f7;
+}
+.medium {
+  position: relative;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 10px;
+  gap: 17rem;
+}
+
+.game img {
+  height: 70vh;
+  width: 70vh;
+}
+/*.game {
+  position: relative;
+  background-image: url(./image\ 110.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;*/
+.ville {
+  margin-top: 5%;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+  gap: 10rem;
+  list-style: none;
+  color: #414536;
+  text-align: left;
+  align-items: left;
+}
+.ville-h1 {
+  font-size: 30px;
+  line-height: 2.5rem;
+}
+.ville ul li {
+  list-style: none;
+}
+.win {
+  color: #2c2f24;
+  font-size: 30pxpx;
+  gap: 1rem;
+  padding: 7px;
+  margin: 7px;
+}
+.ville-p {
+  padding: 7px;
+}
+.null {
+  list-style: none;
+  border: 2px solid rgb(49, 8, 8);
+  border-radius: 80px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  margin: 7px;
+  align-items: center;
+}
+.null:hover {
+  background: red;
+  gap: 1rem;
+  list-style: none;
+}
+.shiru {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.enma {
+  padding: 2% 6%;
+}
+.enma h1 {
+  font-size: 35px;
+  align-items: center;
+  text-align: left;
+}
+.shiru-col img {
+  width: 100%;
+  padding: 15px;
+}
+.shiru-col h2 {
+  padding: 10px;
+}
+.shiru-col p {
+  padding: 7px;
+}
+
+.fight {
+  padding: 10px;
+}
+.shoto {
+  font-size: 35px;
+  align-items: center;
+  text-align: center;
+  display: block;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  padding: 50px;
+}
+.range {
+  border-radius: 20px;
+  background: #f9f9f7;
+  padding: 10px;
+}
+.container {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  width: 30%;
+}
+.ghoul {
+  position: relative;
+  display: flex;
+  padding: 2% 6%;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.expo {
+  width: 15%;
+}
+.dora {
+  position: relative;
+  display: flex;
+  padding: 10px;
+  gap: 10px;
+}
+.dora > div {
+  display: flex;
+  flex-direction: column;
+}
+.ifrit {
+  display: flex;
+  position: relative;
+}
+
+.footer {
+  background: #474747;
+  padding: 1rem;
+}
+.foot {
+  width: 10%;
+  padding: 10px 2px;
+}
+.ball {
+  list-style: none;
+  padding: 7px;
+  color: #dbdfd0;
+  font-size: 13px;
+}
+.team {
+  position: relative;
+  display: contents;
+}
+.base {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.iron {
+  background: #f9f9f7;
+}
+
+.white img {
+  width: 100%;
+}
+.white {
+  border: 1px solid;
+  border-radius: 12px;
+  background: #ffffff;
+  width: 37%;
+}
+.man {
+  color: #737865;
+  font-size: 13px;
+}
+.cat {
+  color: #414536;
+}
+.white {
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  width: 50%;
+}
+.blue {
+  display: grid;
+  column-gap: 25px;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.red {
+  border: 1px solid #ffffff;
+  border-radius: 5px 5px;
+  padding: 9px;
+  background: #ffffff;
+  gap: 1rem 1rem;
+}
+.red img {
+  width: 100%;
+}
+.pink {
+  font-size: 17px;
+  color: #2c2f24;
+  padding: 5px;
+}
+.free {
+  padding: 2% 6%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.free h1 {
+  font-size: 40px;
+}
+.free ul li {
+  list-style: none;
+}
+.free ul li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #ffffff;
+  border-radius: 80px;
+  border: 2px solid;
+  background: #ad343e;
+  display: inline-block;
+  padding: 15px;
+}
+.jjk {
+  padding: 10px;
+  color: #ad343e;
+}
+.gojo {
+  color: #414536;
+  padding: 10px;
+}
+.end {
+  text-align: center;
+  color: #adb29e;
+  font-size: 13px;
+  margin: 20px;
+  align-items: center;
+  padding: 50px;
+}
+.marine {
+  background: #f9f9f7;
+}
+.akainu {
+  width: 30%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+}
+.aokiji {
+  width: 300px;
+}
+.kizaru {
+  flex-direction: column;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  line-height: 3rem;
+}
+.kizaru > img {
+  width: 250px;
+}
+.garp {
+  position: relative;
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px 10px;
+  gap: 3rem;
+}
+
+.rengoku {
+  align-items: center;
+  margin: 50px;
+}
+.koby {
+  font-size: 55px;
+  color: #2c2f24;
+}
+.smoke {
+  font-size: 16px;
+  color: #414536;
+  padding: 0.5rem;
+}
+.rengoku ul li {
+  list-style: none;
+  color: #2c2f24;
+  padding: 5px;
+}
+.rengoku ul li img {
+  width: 6%;
+}
+.bird {
+  color: #adb29e;
+  padding: 13px;
+}
+.bord {
+  width: 2%;
+  display: none;
+}
+@media screen and (max-width: 958px) {
+  .ul1 {
+    display: none;
+  }
+  .BOOK {
+    display: none;
+  }
+  .bord {
+    display: block;
+  }
+  .gum {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .gum-col {
+    width: 90%;
+  }
+  .medium {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .game img {
+    width: 100%;
+    height: 100%;
+  }
+  .ville {
+    padding: 10px;
+    margin: -40px;
+  }
+  .ville-h1 {
+    width: 100%;
+  }
+  .garp {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .akainu {
+    width: 100%;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  .aokiji {
+    width: 60%;
+  }
+  .kizaru img {
+    width: 66%;
+  }
+  .smoke {
+    font-size: 20px;
+  }
+  .rengoku ul li {
+    font-size: 20px;
+  }
+  .win {
+    font-size: 15px;
+  }
+  .shiru {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .shiru-col img {
+    width: 70%;
+  }
+  .shiru-col p {
+    font-size: 1.5rem;
+  }
+  .shiru-col h2 {
+    font-size: 2rem;
+  }
+  .ghoul {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .range {
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  .jjk {
+    font-size: 35px;
+  }
+  .gojo {
+    font-size: 20px;
+  }
+  .expo {
+    width: 30%;
+  }
+  .black {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+  }
+  .shoto {
+    font-size: 50px;
+  }
+  .bide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .base {
+    font-size: 1.5rem;
+    padding: 1rem;
+  }
+  .ball {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .bord {
+    width: 7%;
+  }
+  .fire {
+    width: 100%;
+  }
+  .text-box h1 {
+    font-size: 35px;
+  }
+  .text-box p {
+    font-size: 17px;
+  }
+  .bottle {
+    width: 200%;
+  }
+  .container {
+    grid-template-columns: auto;
+  }
+  .team {
+    display: flex;
+    flex-direction: row;
+  }
+  .bide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+}
+.active {
+  border: 1px solid #414536;
+  border-radius: 12px;
+}
